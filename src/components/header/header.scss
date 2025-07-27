@@ -1,0 +1,26 @@
+.navbar {
+    height: 100px;
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        .link {
+            
+            padding: 1rem;
+            color: #333;
+            text-decoration: none;
+            font-size: 1rem;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
