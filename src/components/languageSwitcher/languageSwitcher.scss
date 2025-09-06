@@ -1,0 +1,19 @@
+@import '../../colors.scss';
+.language-switcher{
+    display: flex;
+    gap: 10px;
+    button {
+        background: none;
+        border: none;
+        color: #333;
+        font-size: 1.1rem;
+        cursor: pointer;
+        &:hover {
+            color: $color-primary;
+        }
+        &:disabled {
+            color: gray;
+            cursor: default;
+        }
+    }
+}

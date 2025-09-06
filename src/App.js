@@ -7,7 +7,7 @@ import {
 import './App.scss';
 import Home from "./pages/home/home";
 import Header from "./components/header/header";
-import Biography from "./pages/biography/biography";
+import Aboutme from "./pages/aboutme/aboutme";
 import Research from "./pages/research/research";
 import Contact from "./pages/contact/contact";
 import Footer from "./components/footer/footer";
@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/biography" element={<Biography />} />
+          <Route path="/aboutme" element={<Aboutme />} />
           <Route path="/research" element={<Research />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='*' element={<Navigate to='/' />} />

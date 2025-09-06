@@ -1,0 +1,23 @@
+.about-content { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    .aboutme-text {  
+        max-width: 55vw;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+            
+        }
+    }
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    max-width: 100vw;
+  }
+}
