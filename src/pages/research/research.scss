@@ -1,9 +1,12 @@
-.about-content { 
+.research-content { 
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 80px;
-    .aboutme-text {  
+    .submenu {
+        
+    }
+    .research-text {  
         max-width: 55vw;
         padding: 2rem;
         display: flex;
@@ -14,7 +17,7 @@
 }
 
 @media (max-width: 900px) {
-  .about-container {
+  .research-container {
     max-width: 100vw;
   }
 }

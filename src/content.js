@@ -2,6 +2,7 @@ const content = {
     en: {
         header: {
             links: {
+                home: "Home",
                 aboutMe: "About Me",
                 research: "Research",
                 contact: "Contact"
@@ -37,8 +38,9 @@ const content = {
     es: {
         header: {
             links: {
+                home: "Inicio",
                 aboutMe: "Sobre mi",
-                research: "Investigacion",
+                research: "Investigación",
                 contact: "Contacto"
             }
         },
